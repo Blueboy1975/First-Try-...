@@ -1,0 +1,32 @@
+
+To create a form on your .html page ...
+
+
+<form>
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <input type="email" name="E-mail Address" placeholder="E-mail Address" required>
+        <input type="Telephone" name="Telephone Number" placeholder="Mobile Number" required>
+        <textarea name="Your Message"">Your Message</textarea>
+        <button type="Submit">Submit</button>
+    </form>
+
+    -----------------------------------------------------------------------------------------------
+
+
+    <form class="form"> 
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <br>
+        <br>
+        <input type="email" name="E-mail Address" placeholder="E-mail Address" required>
+        <br>
+        <br>
+        <input type="Telephone" name="Telephone Number" placeholder="Telephone No." required>
+        <br>
+        <br>
+        <br>
+        <textarea name="Your Message"">Your Message</textarea>
+        <br>
+        <br>
+        <button type="Submit">Submit</button>
+
+    </form>

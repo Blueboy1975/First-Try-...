@@ -1,0 +1,64 @@
+Flexbox ...
+
+To create a PARENT CONTAINER to allow Flexbox to work ...
+
+
+.flex {                                                                               = Name of Parent Container
+    border: 5px solid black;                                         = Add a Border
+    display: flex;                                                              = Adjust to Flexbox
+    flex-wrap: wrap;                                                      = PARENT CONTAINER will automatically move the containers 
+    justify-content: center;                                          = Center the contents of Parent Container.                                                                                                                                       to the next line and keep the Height and 
+                                                                                                                                           width settings of the DIV elements you coded.
+                                                                                                                                                                                                                  
+}
+
+
+=========================================================================================================
+
+
+To use .CSS to put Border around Parent Container, Enable Flexbox, 
+Wrap the contents (so they stay the size you coded and naturally move underneath each other) 
+and Center the contents of the Parent \Container ...
+
+
+.flex {
+    border: 5px solid black;
+    display: flex;                     Start/End 
+    flex-wrap: wrap;                 Left  /  Right .... of page
+    justify-content: center; OR flex-start; OR flex-end;
+    padding: 50px;                                 This will help you to move elements around inside 
+                                                   the PARENT CONTAINER, If you wanted to move them down
+                                                   so they are even for example.     
+} 
+
+justify-content: space-between; ... Space the elements out.
+justify-content: space-around;  ... Space elements symetrically.
+
+flex-direction: row-reverse;    ... Reverses the order of the elements in the row.
+flex-direction: column-reverse; ... Will display elements in reverse and down the page.
+
+align-items:        flex-start; ... Items align to te TOP of the container.
+                    flex-end;   ... Item align to the BOTTOM of the container.
+                    center;     ... Items align to the CENTER of the container.
+                    baseline;   ... Items dispay at the BASELINE of the container.
+                    stretch;    ... Items are STRETCHED to fit the container.
+
+
+Use a combination like this to move elements around ... Justify-content=middle of the itmes row it sits on.
+                                                    ... Align-items=Up and Down the page.
+
+justify-content: centre;
+align-items: center;
+
+
+
+
+
+
+
+
+
+
+
+
+

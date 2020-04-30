@@ -1,0 +1,68 @@
+
+CSS Position: Relative vs Position Absolute ...
+
+Static - this is the default value, all elements are in order as they appear in the document.
+Relative - the element is positioned relative to its normal position.
+Absolute - the element is positioned absolutely to its first positioned parent.
+Fixed - the element is positioned related to the browser window.
+Sticky - the element is positioned based on the user's scroll position.
+
+
+To make an element go to a specific place on the page ... position: ABSOLUTE;
+
+#box6 {
+      top: 100px;
+      left: 200px;
+      position: absolute;
+  }
+
+  ========================================================================================================
+
+  To make an element stay in one position when user is scrolling ... It NEVER moves ... position: FIXED;
+
+   #box6 {
+      top: 100px;
+      left: 200px;
+      position: fixed;
+  }
+
+  =========================================================================================================
+
+  To set a background for your page ...
+
+  html {
+    background-image: url(RangeRover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+===========================================================================================================
+
+To change the color of the background of you .html page ... (to right, bottom, left + colors you want,
+DO NOT FORGET ';' at the end)
+
+html {
+   background-image: linear-gradient(to right, blue, green, yellow);
+
+------------------------------------------------------------------------------------------------------------
+   
+   To make background colors circular in appearance ...
+
+
+html {
+   background-image: radial-gradient(to right, blue, green, yellow);
+
+===========================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
