@@ -1,0 +1,14 @@
+To create a NEW REPOSITORY on the CMD(terminal)
+
+Always follow these steps ...
+
+1st Create a new REPOSITORY ... then inside the Terminal ...
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Blueboy1975/First-Try-....git
+git push -u origin master
+
+Remember to REFRESH THE CODE ... then ... all your codes appear in GitHub.

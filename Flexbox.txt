@@ -3,16 +3,19 @@ Flexbox ...
 To create a PARENT CONTAINER to allow Flexbox to work ...
 
 
-.flex {                                                                               = Name of Parent Container
-    border: 5px solid black;                                         = Add a Border
-    display: flex;                                                              = Adjust to Flexbox
-    flex-wrap: wrap;                                                      = PARENT CONTAINER will automatically move the containers 
-    justify-content: center;                                          = Center the contents of Parent Container.                                                                                                                                       to the next line and keep the Height and 
-                                                                                                                                           width settings of the DIV elements you coded.
+.flex {                                                                               
+    border: 5px solid black;                                         
+    display: flex;                                                              
+    flex-wrap: wrap;                                                       
+    justify-content: center;                                          
                                                                                                                                                                                                                   
 }
 
-
+= Name of Parent Container
+= Add a Border
+= Adjust to Flexbox
+= PARENT CONTAINER will automatically move the containers
+ = Center the contents of Parent Container.
 =========================================================================================================
 
 
@@ -38,13 +41,13 @@ flex-direction: row-reverse;    ... Reverses the order of the elements in the ro
 flex-direction: column-reverse; ... Will display elements in reverse and down the page.
 
 align-items:        flex-start; ... Items align to te TOP of the container.
-                    flex-end;   ... Item align to the BOTTOM of the container.
-                    center;     ... Items align to the CENTER of the container.
-                    baseline;   ... Items dispay at the BASELINE of the container.
-                    stretch;    ... Items are STRETCHED to fit the container.
+                              flex-end;   ... Item align to the BOTTOM of the container.
+                              center;     ... Items align to the CENTER of the container.
+                              baseline;   ... Items dispay at the BASELINE of the container.
+                              stretch;    ... Items are STRETCHED to fit the container.
 
 
-Use a combination like this to move elements around ... Justify-content=middle of the itmes row it sits on.
+Use a combination like this to move elements around ... Justify-content=middle of the items row it sits on.
                                                     ... Align-items=Up and Down the page.
 
 justify-content: centre;
