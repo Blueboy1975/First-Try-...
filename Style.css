@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(98, 125, 165);
+    background-image: url(Dungee1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,8 +13,29 @@ h1{
     
 }
 
+.inlinks{
+    text-align: center;
+    border: black solid 10px;
+}
+
+#inlink1{
+    margin-left: 175px;
+}
+
+#inlink2{
+    text-align: center;
+}
+
 #welcomemessage {
     color: blue;
+}
+
+#certs1{
+    justify-content: center;
+    margin-left: 180px;
+    border: maroon solid 5px;
+    margin-right: 190px;
+    
 }
 
 
@@ -54,15 +75,16 @@ h1{
     display: flex;                      
     flex-wrap: wrap;                 
     justify-content: center; 
-    height: 200px;
-   width: 950px;
+    height: 150px;
+   width: 700px;
    background-color: rgb(163, 163, 17);
-   margin: 20px 20px;
-   margin-left: 10px;
+   margin-left: 150px;
+   
 }
 
 .nav{
-    margin-left: 250px;
+    padding-left: 50px;
+    margin-left: 300px;
     display: inline-block;
     height: 100px;
     width: 350px;
@@ -173,8 +195,11 @@ a{
         color: red;
     }
 
+    .inlink1 {
+        text-align: center;
+    }
+
     .inlinks {
-        color: saddlebrown;
         text-align: center;
     }
 
@@ -190,8 +215,8 @@ a{
 
   .form {
       text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 50px;
+    margin-right: 100px;
 
 
   }
@@ -202,8 +227,8 @@ a{
     grid-gap: 10px;
     grid-template-columns: repeat(5, [col] 100px ) ;
     grid-template-rows: repeat(3, [row] auto  );
-    background-color: white;
-    color: #444;
+    background-color: lightseagreen;
+    
 }
 
 .Box {
@@ -225,7 +250,8 @@ a{
     grid-row: row ;
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(red, white, blue);
+    
+    
     
     
 }
