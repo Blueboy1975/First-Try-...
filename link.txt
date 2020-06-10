@@ -1,0 +1,33 @@
+<a href="https://www.udemy.com"><img src="CompTIAA+.jpg" alt="A+ Cert" height="200"</a>
+
+--------------------------------------------------------------------
+
+
+<div class="insidelinks">
+    <a href="About.html"> About me ...</a>
+    <a  href="Contact.html"> How to contact me ...</a>
+    <a  href="Certs.html"> My Qualifications and Certificates held ...</a>
+</div>
+
+-----------------------------------------------
+
+Email link
+
+<A HREF="mailto:name@mydomain.com">Click Here To Email Me</A>
+
+
+To set a background for your page ...
+
+  html {
+    background-image: url(RangeRover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+--------------------------------------------------------
+
+
+https://www.facebook.com/photo.php?fbid=141430127552885&set=pb.100050576963892.-2207520000..&type=3&size=598%2C598
+
+

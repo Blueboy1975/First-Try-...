@@ -1,17 +1,20 @@
+
+
+
 html {
-    background-image: url();
+    background-image: url(Sunset2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
 
 
-h1{
-    color: black;
+
+
+
+#visdemability{
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    
 }
+
+
 
 .h3{
     color: black;
@@ -21,34 +24,7 @@ h1{
 
 }
 
-.ContactDetails{
-    margin-left: 175px;
-}
 
-.inlinks{
-    text-align: center;
-    border: black solid 10px;
-}
-
-#inlink1{
-    margin-left: centre;
-}
-
-#inlink2{
-    text-align: center;
-}
-
-#welcomemessage {
-    color: blue;
-}
-
-#certs1{
-    justify-content: center;
-    margin-left: 180px;
-    border: maroon solid 5px;
-    margin-right: 190px;
-    
-}
 
 
     
@@ -56,8 +32,7 @@ h1{
     color: blue;
     border: 5px solid black;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 250px;
+    
 }
 
 .brown {
@@ -71,9 +46,7 @@ h1{
     margin-right: 350px;
 }
 
-.textsize {
-    text-align: center;
-}
+
 
 #red {
     border-radius: 50%;
@@ -89,19 +62,8 @@ h1{
     justify-content: center; 
     height: 150px;
    width: 700px;
-   background-color: rgb(163, 163, 17);
+   background-color: black;
    margin-left: 150px;
-   
-}
-
-.nav{
-    padding-left: 50px;
-    margin-left: 300px;
-    display: inline-block;
-    height: 100px;
-    width: 350px;
-    background-color: khaki;
-    border: 5px solid black;
     
     }
 
@@ -115,6 +77,8 @@ a{
     list-style: none;
     
 }
+
+
 
 @keyframes fade {
     0% {
@@ -132,7 +96,7 @@ a{
     }
 }
     #box1 {
-        background-color: rgb(88, 7, 88);
+        background-color: purple;
         height: 50px;
         width: 50px;
         animation-name: fade;
@@ -202,19 +166,7 @@ a{
         animation-iteration-count: infinite;
     }
 
-    .outlinks {
-        text-align: center;
-        color: red;
-    }
-
-    .inlink1 {
-        text-align: center;
-    }
-
-    .inlinks {
-        text-align: center;
-    }
-
+    
     #box{
         display: inline-block;
         
